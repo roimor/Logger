@@ -2,7 +2,7 @@ import logging
 import time
 import datetime
 
-
+print ('pizza')
 class Logger:
     def __init__(self):
         self.ts = time.time()
@@ -14,9 +14,6 @@ class Logger:
 
     def success(self, text, st):
         logging.info(st + "==>" + text)
-
-    def fail(self, text, st):
-        logging.warning(st + "==>" + text)
 
     def run(self,text):
         self.start(text,self.st)

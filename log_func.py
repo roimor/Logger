@@ -2,7 +2,6 @@ import logging
 import time
 import datetime
 
-print ('pizza')
 class Logger:
     def __init__(self):
         self.ts = time.time()
